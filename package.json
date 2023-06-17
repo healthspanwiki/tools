@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && node dist/script.js"
-  }, 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/healthspanwiki/tools.git"
@@ -22,10 +22,16 @@
   "homepage": "https://github.com/healthspanwiki/tools#readme",
   "devDependencies": {
     "@types/node": "^20.3.1",
+    "@types/node-fetch": "^2.6.4",
+    "@types/tough-cookie": "^4.0.2",
     "typescript": "^5.1.3"
   },
   "dependencies": {
     "dotenv": "^16.1.4",
+    "fetch-cookie": "^2.1.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^2.6.6",
+    "tough-cookie": "^4.1.3",
     "winston": "^3.9.0"
   }
 }
