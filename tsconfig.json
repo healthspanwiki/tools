@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "lib": ["ES2015", "dom"] // Add this line
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
+}

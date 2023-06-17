@@ -1,0 +1,31 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/script.js"
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/healthspanwiki/tools.git"
+  },
+  "keywords": [
+    "healthspanwiki"
+  ],
+  "author": "Alex Godfrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/healthspanwiki/tools/issues"
+  },
+  "homepage": "https://github.com/healthspanwiki/tools#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "winston": "^3.9.0"
+  }
+}
